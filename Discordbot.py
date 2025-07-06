@@ -38,4 +38,4 @@ async def complimentelyas(interaction: discord.Interaction):
     compliment = random.choice(COMPLIMENTS)
     await interaction.response.send_message(compliment)
 
-bot.run("YOUR_BOT_TOKEN")
+bot.run(TOKEN)
